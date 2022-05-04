@@ -5,6 +5,7 @@
 
 
 * {
+    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +15,7 @@
 
 body {
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: white;
 }
 
@@ -28,12 +29,14 @@ header .container {
 }
 
 header .logo {
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 40px;
 }
 
 .subtitle {
+    margin-left: 15px;
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 20px;
@@ -52,6 +55,7 @@ header nav a:hover {
 /*Filme Principal*/
 
 .filme-principal {
+    margin-left: 15px;
     font-size:16px;
     background: linear-gradient(rgba(0,0,0,10%),rgba(0,0,0,50%)), url('../img/OQuatrilho.jpg');
 
@@ -105,4 +109,8 @@ header nav a:hover {
     width: 100%;
     display: block;
 
+}
+
+.carrossel-filmes{
+    margin-top: 7px;
 }
