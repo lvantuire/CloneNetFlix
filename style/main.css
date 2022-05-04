@@ -10,16 +10,18 @@
     box-sizing: border-box;
 }
 
+/* Elementos Base*/
 
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 
 header .container {
     margin-left: 5px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -39,4 +41,24 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*Filme Principal*/
+
+.filme-principal {
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,10%),rgba(0,0,0,50%)), url('../img/OQuatrilho.jpg');
+
+    height:400px;
+    background-size: cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 10px;
 }
